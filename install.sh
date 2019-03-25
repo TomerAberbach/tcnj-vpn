@@ -46,7 +46,7 @@ elif [[ "$(expr substr $(uname -s) 1 5)" == "Linux" ]]; then
 
                 cd /usr/bin
                 echo -e "#!/bin/bash\nsudo /usr/bin/openconnect/openconnect --protocol=gp vpn-gw-ft.tcnj.edu --quiet --user=$username" > tcnj-vpn
-                chmod u+x tcnj-vpn
+                chmod +x tcnj-vpn
                     
                 echo "The TCNJ Linux VPN has been successfully installed."
                 echo "To connect to the VPN simply run 'tcnj-vpn' from any directory and enter your password when prompted."
