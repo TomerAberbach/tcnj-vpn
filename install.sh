@@ -30,7 +30,7 @@ elif [[ "$(expr substr $(uname -s) 1 5)" == "Linux" ]]; then
                 sudo apt-get install openconnect
 
                 cd /usr/bin
-                echo -e "#!/bin/bash\nsudo /usr/bin/openconnect/openconnect --protocol=gp vpn-gw-ft.tcnj.edu --quiet --user=$username" > tcnj-vpn
+                echo -e "#!/bin/bash\nsudo openconnect --protocol=gp vpn-gw-ft.tcnj.edu --quiet --user=$username" > tcnj-vpn
                 chmod +x tcnj-vpn
                     
                 echo "The TCNJ Linux VPN has been successfully installed."
