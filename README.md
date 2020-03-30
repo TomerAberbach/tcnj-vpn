@@ -67,5 +67,5 @@ While you wait for the issue to be resolved feel free to manually install the TC
 
 ## License
 
-Copyright © 2019 [Tomer Aberbach](https://github.com/TomerAberbach)
+Copyright © 2020 [Tomer Aberbach](https://github.com/TomerAberbach)
 Released under the [MIT license](https://github.com/TomerAberbach/tcnj-vpn/blob/master/LICENSE).
