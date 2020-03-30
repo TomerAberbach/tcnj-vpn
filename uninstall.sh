@@ -8,7 +8,6 @@ if [[ "$(expr substr $(uname -s) 1 5)" == "Linux" ]]; then
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         if [[ $(id -u) -eq 0 ]]; then
             cd /usr/bin
-            sudo rm -rf openconnect
             sudo rm -f tcnj-vpn
         
             echo "The TCNJ Linux VPN has been successfully uninstalled."

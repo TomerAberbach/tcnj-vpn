@@ -27,22 +27,7 @@ elif [[ "$(expr substr $(uname -s) 1 5)" == "Linux" ]]; then
                 done
                 echo
                 
-                if [[ -z $(apt-cache search --names-only '^libgnutls-dev$') ]]; then
-                    libgnutls='libgnutls28-dev'
-                else
-                    libgnutls='libgnutls-dev'    
-                fi
-                
-                sudo apt-get install git build-essential gettext autoconf automake libproxy-dev libxml2-dev libtool vpnc-scripts pkg-config $libgnutls
-
-                cd /usr/bin
-                git clone https://github.com/dlenski/openconnect.git
-                cd openconnect
-                git checkout globalprotect
-                ./autogen.sh
-                ./configure
-                make
-                sudo make install && sudo ldconfig
+                sudo apt-get install openconnect
 
                 cd /usr/bin
                 echo -e "#!/bin/bash\nsudo /usr/bin/openconnect/openconnect --protocol=gp vpn-gw-ft.tcnj.edu --quiet --user=$username" > tcnj-vpn
