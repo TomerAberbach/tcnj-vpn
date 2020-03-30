@@ -30,7 +30,7 @@ You may ignore any output unrelated to incorrect credentials.
 
 Note that you will be unable to work from the terminal window where you ran the command so simply open another terminal window if you wish to continue working. Alternatively you could run the command in the background.
 
-To disconnect simply open the terminal window where you ran the `tcnj-vpn` command and press [[CTRL+C]].
+To disconnect simply open the terminal window where you ran the `tcnj-vpn` command and press `CTRL+C`.
 
 ## Uninstall
 
