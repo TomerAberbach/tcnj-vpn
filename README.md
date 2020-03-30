@@ -16,11 +16,11 @@ Otherwise download the [install script](https://raw.githubusercontent.com/TomerA
 $ sudo ./install.sh
 ```
 
-TCNJ also requires [multifactor authentication with Duo](https://security.tcnj.edu/resources-tips/duo-multifactor-authentication).
+Set up [multifactor authentication with Duo](https://security.tcnj.edu/resources-tips/duo-multifactor-authentication) (TCNJ requires it).
 
 ## Usage
 
-To connect to the VPN simply run the following command from any directory and enter your password when prompted:
+To connect to the VPN simply run the following command from any directory, enter your password when prompted, and authenticate via the device you set up with Duo:
 
 ```sh
 $ tcnj-vpn
