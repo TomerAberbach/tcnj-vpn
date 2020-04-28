@@ -48,9 +48,9 @@ $ sudo ./uninstall.sh
 
 ## Issues
 
-If you encounter any issues while running `install.sh` or `uninstall.sh` please [please create an issue](https://github.com/TomerAberbach/tcnj-vpn/issues/new).
+If you encounter any issues while running `install.sh` or `uninstall.sh` [please create an issue](https://github.com/TomerAberbach/tcnj-vpn/issues/new).
 
-While you wait for the issue to be resolved feel free to manually install the TCNJ Linux VPN using this [tutorial](https://tomeraberba.ch/html/post/tcnj-linux-vpn.html).
+While you wait for the issue to be resolved feel free to manually install the TCNJ Linux VPN using the [tutorial](https://tomeraberba.ch/html/post/tcnj-linux-vpn.html).
 
 ## License
 
