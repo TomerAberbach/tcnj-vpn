@@ -46,27 +46,12 @@ Otherwise download the [uninstall script](https://raw.githubusercontent.com/Tome
 $ sudo ./uninstall.sh
 ```
 
-## Contributing
-
-Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/TomerAberbach/tcnj-vpn/issues/new).
-
 ## Issues
 
 If you encounter any issues while running `install.sh` or `uninstall.sh` please [please create an issue](https://github.com/TomerAberbach/tcnj-vpn/issues/new).
 
 While you wait for the issue to be resolved feel free to manually install the TCNJ Linux VPN using this [tutorial](https://tomeraberba.ch/html/post/tcnj-linux-vpn.html).
 
-## Author
-
-**Tomer Aberbach**
-
-* [GitHub](https://github.com/TomerAberbach)
-* [npm](https://www.npmjs.com/~tomeraberbach)
-* [LinkedIn](https://www.linkedin.com/in/tomer-a)
-* [Website](https://tomeraberba.ch)
-
 ## License
 
-Copyright © 2020 [Tomer Aberbach](https://github.com/TomerAberbach)
-
-Released under the [MIT license](https://github.com/TomerAberbach/tcnj-vpn/blob/master/license).
+[MIT](https://github.com/TomerAberbach/tcnj-vpn/blob/master/license) © [Tomer Aberbach](https://github.com/TomerAberbach)
