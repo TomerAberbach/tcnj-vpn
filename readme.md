@@ -7,10 +7,10 @@
 If you have `curl` installed (or can install it by running `sudo apt install curl`):
 
 ```sh
-$ curl -L https://raw.githubusercontent.com/TomerAberbach/tcnj-vpn/master/install.sh | sudo bash
+$ curl -L https://raw.githubusercontent.com/TomerAberbach/tcnj-vpn/main/install.sh | sudo bash
 ```
 
-Otherwise download the [install script](https://raw.githubusercontent.com/TomerAberbach/tcnj-vpn/master/install.sh) and execute it:
+Otherwise download the [install script](https://raw.githubusercontent.com/TomerAberbach/tcnj-vpn/main/install.sh) and execute it:
 
 ```sh
 $ sudo ./install.sh
@@ -37,10 +37,10 @@ To disconnect simply open the terminal window where you ran the `tcnj-vpn` comma
 If you have `curl` installed (or can install it by running `sudo apt install curl`):
 
 ```sh
-$ curl -L https://raw.githubusercontent.com/TomerAberbach/tcnj-vpn/master/uninstall.sh | sudo bash
+$ curl -L https://raw.githubusercontent.com/TomerAberbach/tcnj-vpn/main/uninstall.sh | sudo bash
 ```
 
-Otherwise download the [uninstall script](https://raw.githubusercontent.com/TomerAberbach/tcnj-vpn/master/uninstall.sh) and execute it:
+Otherwise download the [uninstall script](https://raw.githubusercontent.com/TomerAberbach/tcnj-vpn/main/uninstall.sh) and execute it:
 
 ```sh
 $ sudo ./uninstall.sh
@@ -54,4 +54,4 @@ While you wait for the issue to be resolved feel free to manually install the TC
 
 ## License
 
-[MIT](https://github.com/TomerAberbach/tcnj-vpn/blob/master/license) © [Tomer Aberbach](https://github.com/TomerAberbach)
+[MIT](https://github.com/TomerAberbach/tcnj-vpn/blob/main/license) © [Tomer Aberbach](https://github.com/TomerAberbach)
